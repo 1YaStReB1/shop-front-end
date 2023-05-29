@@ -14,7 +14,15 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": "src",
     "paths": {
+      "@/layout/*":["components/layout/*"],
+      "@/ui/*" :[
+        "components/ui/*"
+      ],
+      "@/screens/*":[
+        "somponents/screens/*"
+      ],
       "@/*": ["./*"]
     }
   },
